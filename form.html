@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form</title>
+    <style>
+        img {
+            width: 300px;
+            height: 200px;
+            position: absolute;
+        }
+        
+        .container {
+            width: 350px;
+            height: 200px;
+            position: relative;
+            margin-top: 15%;
+            margin-left: 40%;
+            perspective: 1000px;
+            transform-style: preserve-3d;
+        }
+        
+        .images {
+            width: 100%;
+            position: absolute;
+            transform-style: preserve-3d;
+            animation: rotate 20s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from {}
+            to {
+                transform: rotateY(360deg);
+            }
+        }
+        
+        img:nth-child(1) {
+            transform: rotateY(60deg) translateZ(300px);
+        }
+        
+        img:nth-child(2) {
+            transform: rotateY(120deg) translateZ(300px);
+        }
+        
+        img:nth-child(3) {
+            transform: rotateY(180deg) translateZ(300px);
+        }
+        
+        img:nth-child(4) {
+            transform: rotateY(240deg) translateZ(300px);
+        }
+        
+        img:nth-child(5) {
+            transform: rotateY(300deg) translateZ(300px);
+        }
+        
+        img:nth-child(6) {
+            transform: rotateY(360deg) translateZ(300px);
+        }
+        
+        form {
+            font-style: bold;
+            font-size: large;
+            position: relative;
+            top: 60px;
+            font-family: sans-serif;
+            color: rgb(251, 249, 255);
+            position: relative;
+            left: 500px;
+            width: 320px;
+            padding: 10px;
+            border: 2px solid rgb(106, 124, 106);
+            margin: 10px;
+            border-radius: 5px;
+            background-color: gray;
+            background-image: url(tec.jpg);
+            background-position: cover;
+        }
+        
+        h1 {
+            width: 320px;
+            padding: 10px;
+            border: 2px solid rgb(106, 124, 106);
+            margin: 10px;
+            border-radius: 5px;
+            font-size: xx-large;
+            font-style: normal;
+            font: 2000px;
+            position: relative;
+            top: -500px;
+            left: 450px;
+            background-color: aliceblue;
+            background-image: url(gold.jpg);
+            background-position: cover;
+            color: rgb(155, 3, 157);
+        }
+        
+        h2 {
+            width: 320px;
+            background-color: aliceblue;
+            padding: 10px;
+            border: 2px solid rgb(106, 124, 106);
+            color: aliceblue;
+            margin: 10px;
+            border-radius: 5px;
+            size: 1000px;
+            position: relative;
+            top: 50px;
+            left: 500px;
+            background-image: url(kk.jpg);
+            background-position: cover;
+        }
+        
+        html {
+            height: 100%;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: linear-gradient(#141e30, #243b55);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="images">
+            <img src="we.jpg">
+            <img src="dv.jpg">
+            <img src="pio.jpg">
+            <img src="bbln.jpg">
+            <img src="sni.jpg">
+            <img src="sp.jpg">
+
+        </div>
+
+    </div>
+    <h2>ALUMNI FORM</h2>
+
+    <form action="welcome.php" method="post">
+        Name: <input type="text" name="name"><br> E-mail: <input type="text" name="email"><br>
+        <input type="submit" value="Submit" style="background: linear-gradient(rgb(168, 243, 157), rgb(23, 136, 136), rgb(87, 83, 83));
+        border-radius:20% ;">
+    </form>
+    <h1>ALUMNIS</h1>
+
+
+</body>
+
+</html>

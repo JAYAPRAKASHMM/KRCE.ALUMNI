@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(204, 255, 255);
+    border: 4px dotted rgb(5, 5, 132);
+    size: 60%;
+    border-radius: 5px;
+    background: linear-gradient(white, rgb(204, 255, 255), rgb(232, 127, 127));
+}
+
+.jp {
+    background-color: rgb(141, 135, 135);
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
+    width: 520px;
+    padding: 10px;
+    border: 1px solid rgb(18, 19, 18);
+    margin: 1px;
+    border-radius: 5px;
+    margin-left: 40px;
+    position: relative;
+    top: -100px;
+    background: linear-gradient(white, rgb(204, 255, 255), rgb(232, 127, 127));
+}
+
+h1 {
+    flex: auto;
+    margin: 10px;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid rgb(18, 19, 18);
+    color: rgb(49, 118, 174);
+    background-image: url(silverr.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    font-display: inherit;
+    justify-content: center;
+    margin-left: 550px;
+    top: 0px;
+    position: relative;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(235, 209, 234);
+    font-variant-position: super;
+    backface-visibility: visible;
+    width: 320px;
+    padding: 10px;
+    border: 2px solid rgb(106, 124, 106);
+    margin: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    background-image: url(wood.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: -100px;
+    left: 0px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(230, 187, 225);
+    font-variant-position: super;
+    backface-visibility: visible;
+    width: 320px;
+    padding: 10px;
+    border: 1px solid rgb(18, 19, 18);
+    margin: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    background-image: url(wood.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: -100px;
+}
+
+.j {
+    width: 520px;
+    background-color: rgb(164, 184, 15);
+    padding: 10px;
+    border: 1px solid rgb(18, 19, 18);
+    margin: 1px;
+    border-radius: 5px;
+    position: relative;
+    top: -100px;
+    margin-left: 40px;
+    background: linear-gradient(white, rgb(204, 255, 255), rgb(232, 127, 127));
+}
+
+.p {
+    width: 520px;
+    background-color: rgb(141, 135, 135);
+    padding: 10px;
+    border: 1px solid rgb(18, 19, 18);
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 40px;
+    position: absolute;
+    top: 640px;
+    background: linear-gradient(white, rgb(204, 255, 255), rgb(232, 127, 127));
+}
+
+.Mo {
+    size: 50%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    position: relative;
+    top: -170px;
+    border: 2px solid rgb(18, 19, 18);
+    left: -200px;
+}
+
+.button {
+    background-color: #4CAF50;
+    background: linear-gradient(white, rgb(204, 255, 255), rgb(232, 127, 127));
+    font: bolder;
+    /* Green */
+    border: 2px solid rgb(54, 54, 204);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 15px;
+    position: relative;
+    left: 900px;
+    top: -600px;
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #44107a;
+    cursor: pointer;
+    border: 5px #fff800;
+}
+
+h4 {
+    flex: auto;
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid rgb(18, 19, 18);
+    font-style: italic;
+    border-radius: 5%;
+    background-color: blueviolet;
+}
+
+.ins {
+    width: 620px;
+    background-color: rgb(141, 135, 135);
+    padding: 10px;
+    border: 1px solid rgb(18, 19, 18);
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 0px;
+    position: relative;
+    top: -300px;
+    background: linear-gradient(white, rgb(204, 255, 255), rgb(232, 127, 127));
+    size: 30px;
+    left: 650px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h6 {
+    background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 90px;
+    position: relative;
+    top: -900px;
+    left: 500px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
